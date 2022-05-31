@@ -15,12 +15,12 @@ export function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
-        <Route path='projetos' element={<Projects />} />
-        <Route path='graduacao' element={<Graduation />} />
-        <Route path='extensao' element={<Extension />} />
-        <Route path='eventos' element={<Events />} />
-        <Route path='certificados' element={<Certificates />} />
-        <Route path='sobre-nos' element={<AboutUs />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path='graduation' element={<Graduation />} />
+        <Route path='extension' element={<Extension />} />
+        <Route path='events' element={<Events />} />
+        <Route path='certificates' element={<Certificates />} />
+        <Route path='about-us' element={<AboutUs />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
