@@ -9,6 +9,7 @@ import { Events } from './routes/Events';
 import { Certificates } from './routes/Certificates';
 import { AboutUs } from './routes/AboutUs';
 import { NotFound } from './routes/NotFound';
+import { theme } from '@chakra-ui/react';
 
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
@@ -16,7 +17,7 @@ import { Footer } from './components/Footer';
 
 export function App() {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <BrowserRouter>
         <Routes>
           <Route element={
