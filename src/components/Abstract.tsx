@@ -8,8 +8,8 @@ interface AbstractProps {
 }
 export function Abstract({title, image, children}: AbstractProps) {
   return(
-    <Flex 
-      align='center' 
+    <Flex
+      align='center'
       bgImage= {image}
       bgPosition="center"
       bgRepeat='no-repeat'
@@ -19,7 +19,7 @@ export function Abstract({title, image, children}: AbstractProps) {
       <Flex
         direction='column'
         px={20}
-        py={10}  
+        py={10}
         >
         <Heading as='h1' mr='auto' mb={5} >{title}</Heading>
         <Text fontSize='lg'>

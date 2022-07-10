@@ -4,21 +4,21 @@ import { Link as ReactRouterLink } from 'react-router-dom';
 
 export function Header() {
   return (
-    <Flex 
-    as='header' 
+    <Flex
+    as='header'
     direction='row'
     justify='space-between'
     align='center'
-    px={20} 
+    px={20}
     bg='#0045AD'
     color='#A8A8B3'
     >
       <Flex
       >
-        <Image 
+        <Image
           src="./public/Logo.svg"
           alt="logoFace"
-          boxSize='120px' 
+          boxSize='120px'
         />
 
       </Flex>
