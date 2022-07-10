@@ -16,7 +16,7 @@ export function Header() {
       <Flex
       >
         <Image
-          src="./public/Logo.svg"
+          src="/Logo.svg"
           alt="logoFace"
           boxSize='120px'
         />

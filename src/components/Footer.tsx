@@ -22,12 +22,12 @@ export function Footer() {
       mr = {20}
       >
         <Image
-          src="./public/logoFace.png"
+          src="/logoFace.png"
           alt="logoFace"
           boxSize='40px'
         />
         <Image
-          src="./public/logoInsta.png"
+          src="/logoInsta.png"
           alt="logoInsta"
           boxSize='40px'
         />
