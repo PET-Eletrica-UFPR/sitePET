@@ -1,6 +1,7 @@
 import { Flex, Heading, Image, Text } from '@chakra-ui/react';
 import { ReactNode } from 'react';
 
+// TODO: Width bug
 interface AbstractProps {
   title: string;
   image: string;
@@ -9,7 +10,7 @@ interface AbstractProps {
 export function Abstract({title, image, children}: AbstractProps) {
   return(
     <Flex
-      align='center'
+      h='400px'
       bgImage= {image}
       bgPosition="center"
       bgRepeat='no-repeat'
@@ -22,7 +23,7 @@ export function Abstract({title, image, children}: AbstractProps) {
         py={10}
         >
         <Heading as='h1' mr='auto' mb={5} >{title}</Heading>
-        <Text fontSize='lg'>
+        <Text fontSize='lg' color='gray.600'>
           {children}
         </Text>
       </Flex>

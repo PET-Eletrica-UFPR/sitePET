@@ -1,4 +1,4 @@
-import { Flex, Heading, Image, Text } from '@chakra-ui/react';
+import { Divider, Flex, Heading, Image, Text } from '@chakra-ui/react';
 
 interface GenericSummaryProps {
   mirror?: boolean;
@@ -10,25 +10,31 @@ interface GenericSummaryProps {
 export function GenericSummary({ mirror = false, image, title, summary }: GenericSummaryProps) {
   const left = <Image src={image} width={580} height={350} />;
 
+  const divider = <Divider borderColor='#EBD64C' border= '1px' w='728px' my='40px'/>
+
   const right = (
     <div>
       <Heading as='h2' fontSize='3xl' mb={10} backgroundColor='#00509D' color='white' p={10} borderRadius='50px' textAlign='center'>{title}</Heading>
       {summary.map((paragraph) => (
-        <Text>{paragraph}</Text>
-      ))}
-    </div>
+        <Text color='gray.600'>{paragraph}</Text>
+        
+      ))}    </div>
+    
   );
 
   let elements;
   if (mirror) {
-    elements = [right, left];
+    elements = [right , left];
   } else {
     elements = [left, right];
   }
 
   return (
-    <Flex flexDirection='row' align='start' justify='stretch' m={5} p={5} borderBottom='solid 2px #EBD64C' gap={10}>
-      {elements}
+    <Flex flexDirection='column' align='center'>
+      <Flex flexDirection='row' align='start' justify='stretch' m={5} p={5} gap={10} px = {20}>
+        {elements}      
+      </Flex>
+      {divider}
     </Flex>
   );
 }
