@@ -1,10 +1,9 @@
-import { Flex, Heading } from '@chakra-ui/react';
 import { Abstract } from '../components/Abstract';
 
 
 export function AboutUs() {
   return (
-    <Abstract title='SOBRE NÓS' image='abstractAboutUs.png'>
+    <Abstract title='SOBRE NÓS' image='abstractAboutUs.svg'>
       O Programa de Educação Tutorial (PET) é um programa do governo federal que mantém grupos de educação
       tutorial em cursos de graduação de universidades de todo o Brasil. Esses grupos, chamados de “grupos PET”
       se orientam, no desenvolvimento de suas atividades, pelo princípio da indissociabilidade entre ensino, pesquisa e extensão.
