@@ -27,7 +27,6 @@ export function Abstract({title, image, children}: AbstractProps) {
           {children}
         </Text>
       </Flex>
-
     </Flex>
   )
 }
