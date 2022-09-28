@@ -31,7 +31,7 @@ export function AboutUs() {
           >
           </Image>
         </Box>
-        
+
         <Box 
           ml='5rem'
           w='50%' 
@@ -44,11 +44,7 @@ export function AboutUs() {
         </Box>
       </Flex>
       
-        <Image src='/aboutUs/bodyAbout.svg' w = '100%'> 
-        </Image>
+        <Image src='/aboutUs/bodyAbout.svg' w = '100%'></Image>
     </>
-    
-
-
   );
 }
