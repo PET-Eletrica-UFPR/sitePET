@@ -1,4 +1,4 @@
-import { Flex, Heading, Text, Image } from '@chakra-ui/react';
+import { Flex, Heading, Text, Image, Link } from '@chakra-ui/react';
 
 export function Footer() {
   return (
@@ -10,27 +10,33 @@ export function Footer() {
       py={10}
     >
       <Flex flexDirection='column'  >
-        <Heading size='md'>Contato</Heading>
-        <Text fontSize='sm' mt={5}>Universidade Federal do Paraná</Text>
-        <Text fontSize='sm'>Campus Politécnico</Text>
-        <Text fontSize='sm'>Av. Cel. Francisco H. dos Santos - Jardim das Américas</Text>
-        <Text fontSize='sm' mb={5}>Curitiba - PR. 81530-000</Text>
-        <Text fontSize='sm'>pet@eletrica.ufpr.br</Text>
+        <Heading size={["sm", 'md']}>Contato</Heading>
+        <Text fontSize={["xs",'sm']} mt={[1, 5]}>Universidade Federal do Paraná</Text>
+        <Text fontSize={["xs",'sm']}>Campus Politécnico</Text>
+        <Text fontSize={["xs",'sm']}>Av. Cel. Francisco H. dos Santos - Jardim das Américas</Text>
+        <Text fontSize={["xs",'sm']} mb={[1, 5]}>Curitiba - PR. 81530-000</Text>
+        <Text fontSize={["xs",'sm']}>pet@eletrica.ufpr.br</Text>
       </Flex>
       <Flex
-      ml = 'auto'
-      mr = {20}
+      ml = {["2rem", 'auto']}
+      mr = {[0, 20]}
       >
-        <Image
-          src="/logoFace.png"
-          alt="logoFace"
-          boxSize='40px'
-        />
-        <Image
-          src="/logoInsta.png"
-          alt="logoInsta"
-          boxSize='40px'
-        />
+        <Link href='https://pt-br.facebook.com/petengeletricaufpr/' isExternal>
+          <Image
+            src="/logoFace.png"
+            alt="logoFace"
+            boxSize='40px'
+          />
+        </Link>
+        
+        <Link href='https://www.instagram.com/pet_eletrica/' isExternal>
+          <Image
+            src="/logoInsta.png"
+            alt="logoInsta"
+            boxSize='40px'
+          />
+        </Link>
+        
         </Flex>
     </Flex>
   );

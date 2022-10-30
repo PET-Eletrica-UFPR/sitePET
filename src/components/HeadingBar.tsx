@@ -8,7 +8,7 @@ export function HeadingBar({ title }: HeadingProps) {
   return(
     <Heading
         as='h2' 
-        fontSize='3xl' 
+        fontSize={["sm",'3xl']} 
         w = '100%'
         my="0.5rem" 
         backgroundColor='#00509D' 

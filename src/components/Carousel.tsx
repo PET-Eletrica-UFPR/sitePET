@@ -22,7 +22,6 @@ export function Carousel() {
         modules={[Navigation, Pagination, Keyboard]}
       >
         <SwiperSlide><Image src='home/members.png' alt='membros' /></SwiperSlide>
-        <SwiperSlide><Image src='degree/degreeMon.png' alt='membros' /></SwiperSlide>  
       </Swiper>
     </Flex>
     

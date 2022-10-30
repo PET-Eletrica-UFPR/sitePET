@@ -1,4 +1,4 @@
-import { Center, Flex, Image, Text } from "@chakra-ui/react";
+import { Center, Flex, Image, Text, useBreakpointValue } from "@chakra-ui/react";
 
 export function PersonalContent() {
   return(
@@ -12,7 +12,7 @@ export function PersonalContent() {
           backgroundRepeat="no-repeat"
         >
           <Text
-            fontSize="2rem"
+            fontSize={["xs", "2xl"]}
             fontWeight="bold"
             color='gray.600'
             align="center"

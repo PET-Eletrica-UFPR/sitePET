@@ -2,6 +2,7 @@ import { Flex } from '@chakra-ui/react';
 import { Testmonials } from '../components/ Testimonials';
 import { Carousel } from '../components/Carousel';
 import { Companies } from '../components/Companies';
+import { News } from '../components/News';
 import { PersonalContent } from '../components/PersonalContent';
 
 
@@ -16,6 +17,7 @@ export function Home() {
         <Testmonials />
       </Flex>      
       <Companies />
+      <News />
     </>
   );
 }

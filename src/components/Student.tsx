@@ -7,13 +7,14 @@ interface StudentProps {
   jobName: ReactNode;
   testimonial: ReactNode;
 }
+
 export function Student({ image, name, jobName, testimonial }: StudentProps) {
   return(
-    <Center flexDirection="column" w = "300px" mx = "2rem">
+    <Center flexDirection="column" w = {["100px","300px"]} mx = {["10px","2rem"]}>
       <Image src={image}></Image>
-      <Text fontSize="3xl" fontWeight="bold">{name}</Text>
-      <Text fontSize="2xl" fontWeight="semibold" color="#A8A8B3" align="center">{jobName}</Text>
-      <Text fontSize="1xl" color="#A8A8B3" align="center">{testimonial}</Text>
+      <Text fontSize={["sm","3xl"]} fontWeight="bold" align="center">{name}</Text>
+      <Text fontSize={["sm", "2xl"]} fontWeight="semibold" color="#A8A8B3" align="center">{jobName}</Text>
+      <Text fontSize={["xs", "1xl"]} color="#A8A8B3" align="center">{testimonial}</Text>
     </Center>
   );
 }

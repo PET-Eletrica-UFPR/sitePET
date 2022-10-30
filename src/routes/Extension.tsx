@@ -8,22 +8,22 @@ const activities = [
   {
     image: '/extension/extensionFormula.svg',
     title: 'UFPR FÓRMULA',
-    summary: ['O UFPR Fórmula é um projeto com a missão de desenvolver membros qualificados e diferenciados para o mercado de trabalho. Para alcançá-la os membros competem na Fórmula SAE Brasil desenvolvendo dois veículos, um a combustão e outro elétrico, gerando inovação, tecnologia e conhecimento, somando isso a gestão de projetos e gerenciamento de equipe.', 'Saiba mais na página do Facebook e na página do Instagram.'],
+    summary: ['O UFPR Fórmula é um projeto com a missão de desenvolver membros qualificados e diferenciados para o mercado de trabalho. Para alcançá-la os membros competem na Fórmula SAE Brasil desenvolvendo dois veículos, um a combustão e outro elétrico, gerando inovação, tecnologia e conhecimento, somando isso a gestão de projetos e gerenciamento de equipe.', 'Saiba mais na na página do Instagram.'],
   },
   {
     image: '/extension/extensionYapira.svg',
     title: 'EQUIPE YAPIRA DE ROBÓTICA UFPR',
-    summary: ['A Equipe Yapira de Robótica UFPR é o grupo de extensão com ênfase em robótica da UFPR. O grupo é composto por alunos de diversos cursos, entre eles Engenharia Elétrica, Engenharia Mecânica, Engenharia de Produção e Ciência da Computação. O intuito de tal grupo é participar de competições, como a Winter Challenge, onde o grupo participa com Robôs de Combate, Seguidores de Linha, Sumôs e ArtBot.', 'Saiba mais na página do Facebook e na página do Instagram.'],
+    summary: ['A Equipe Yapira de Robótica UFPR é o grupo de extensão com ênfase em robótica da UFPR. O grupo é composto por alunos de diversos cursos, entre eles Engenharia Elétrica, Engenharia Mecânica, Engenharia de Produção e Ciência da Computação. O intuito de tal grupo é participar de competições, como a Winter Challenge, onde o grupo participa com Robôs de Combate, Seguidores de Linha, Sumôs e ArtBot.', 'Saiba mais na página do Instagram.'],
   },
   {
     image: '/extension/extensionEco.svg',
     title: 'ECO OCTANO',
-    summary: ['A equipe Eco Octano, formada por estudantes de Engenharia, tem como objetivo desenvolver novas tecnologias para o aumento da eficiência energética em veículos automotores. O grupo é gerenciado pelos próprios estudantes, de modo a desenvolver os integrantes com diversas experiências. A equipe participa da competição Shell Eco-Marathon Brasil, em que os veículos com menor consumo ganham.', 'Saiba mais na página do Facebook e na página do Instagram.'],
+    summary: ['A equipe Eco Octano, formada por estudantes de Engenharia, tem como objetivo desenvolver novas tecnologias para o aumento da eficiência energética em veículos automotores. O grupo é gerenciado pelos próprios estudantes, de modo a desenvolver os integrantes com diversas experiências. A equipe participa da competição Shell Eco-Marathon Brasil, em que os veículos com menor consumo ganham.', 'Saiba mais na página do Instagram.'],
   },
   {
     image: '/extension/extensionEmjel.svg',
     title: 'EMJEL - Assessoria em Eletroeletrônica',
-    summary: ['Somos estudantes de Engenharia Elétrica da Universidade Federal do Paraná (UFPR), a maior do Sul do país, e contamos com o conhecimento técnico adquirido por nossos membros e por nossos professores altamente capacitados, para execução dos nossos serviços de instalações elétricas, desenvolvimento de produtos, eficiência energética e fotovoltaico.', 'A família EMJEL, fundada em 1993, conta com estudantes apaixonados por entregar soluções de qualidade e alinhados com a missão do Movimento Empresa Júnior:'],
+    summary: ['Somos estudantes de Engenharia Elétrica da Universidade Federal do Paraná (UFPR), a maior do Sul do país, e contamos com o conhecimento técnico adquirido por nossos membros e por nossos professores altamente capacitados, para execução dos nossos serviços de instalações elétricas, desenvolvimento de produtos, eficiência energética e fotovoltaico.', 'A família EMJEL, fundada em 1993, conta com estudantes apaixonados por entregar soluções de qualidade e alinhados com a missão do Movimento Empresa Júnior.'],
   },
   {
     image: '/extension/extensionBaja.svg',
