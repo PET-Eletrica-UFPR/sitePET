@@ -5,7 +5,7 @@ import { ReactNode } from 'react';
 interface AbstractProps {
   title: string;
   image: string;
-  children: ReactNode
+  children: ReactNode;
 }
 export function Abstract({title, image, children}: AbstractProps) {
   return(

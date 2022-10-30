@@ -1,10 +1,21 @@
-import { Flex, Heading } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
+import { Testmonials } from '../components/ Testimonials';
+import { Carousel } from '../components/Carousel';
+import { Companies } from '../components/Companies';
+import { PersonalContent } from '../components/PersonalContent';
+
 
 
 export function Home() {
+
   return (
-    <Flex px={10} py={5} direction='column' align='center'>
-      <Heading as='h1'>Home</Heading>
-    </Flex>
+    <>
+      <Flex direction="column" alignItems="center">
+        <Carousel />
+        <PersonalContent/>
+        <Testmonials />
+      </Flex>      
+      <Companies />
+    </>
   );
 }
