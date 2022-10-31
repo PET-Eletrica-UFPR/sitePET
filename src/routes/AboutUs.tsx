@@ -14,33 +14,33 @@ export function AboutUs() {
         recebem apoio financeiro.
       </Abstract>
 
-      <Flex align='center' direction='row'  px='5rem' justifyContent='center'>
+      <Flex align='center' direction='row'  px={['0.5rem', '5rem']}justifyContent='center'>
         <Box 
           bg="#00509D" 
-          borderRightRadius = '5rem' 
-          borderBottomRadius ='5rem'
-          pl='1rem'
-          ml='auto'
+          borderRightRadius = {['1rem','5rem']} 
+          borderBottomRadius = {['1rem','5rem']}
+          pl={["1rem", "5rem"]}
+          ml={['0', 'auto']}
           margin='1.5rem'
         > 
           <Image 
             src='/aboutUs/fotoLolis.png' 
-            boxSize='18rem' 
-            borderRightRadius='5rem' 
-            borderBottomRadius='5rem'
+            boxSize={['5rem','18rem']} 
+            borderRightRadius={['1rem', '2rem']} 
+            borderBottomRadius={['1rem', '5rem']}
           >
           </Image>
         </Box>
 
         <Box 
-          ml='5rem'
-          w='50%' 
+          ml='1rem'
+          w={['100px','50%']} 
           bgGradient="linear(to-r, #00509D, #FFFFFF)" 
-          p = '1rem'
-          borderLeftRadius='1rem'
+          p = {['0.5rem', '1rem']}
+          borderLeftRadius={'1rem'}
         >
-          <Text color='white' fontWeight='bold' fontSize='2rem'>Tutor</Text>
-          <Text color='white' fontWeight='bold' fontSize='2rem'>Professor Luis Henrique Assumpção Lolis</Text>
+          <Text color='white' fontWeight='bold' fontSize={['xs', '2rem']}>Tutor</Text>
+          <Text color='white' fontWeight='bold' fontSize={['xs', '2rem']}>Professor Luis Lolis</Text>
         </Box>
       </Flex>
       

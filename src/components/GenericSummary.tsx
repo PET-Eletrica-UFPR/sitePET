@@ -14,20 +14,17 @@ export function GenericSummary({ mirror = false, image, title, summary }: Generi
     lg: false
   })
   
-  let left;
+  let left = null;
 
   if(!isMobile){
-    left = <Image src={image} width={580} height={350} />;
-  } else {
-    left = null;
-  }
+   left = <Image src={image} width={580} height={350} />;
+  } 
 
-
-  const divider = <Divider borderColor='#EBD64C' border= '1px' w={['100px','728px']} my='40px'/>
+  const divider = <Divider borderColor='#EBD64C' border= '1px' w={['200px','728px']} my='40px'/>
 
   const right = (
     <div>
-      <Heading as='h2' fontSize={['sm', '3xl']} mb={[1, 10]} backgroundColor='#00509D' color='white' p={[1, 10]} borderRadius={["30px", '50px']} textAlign='center'>{title}</Heading>
+      <Heading as='h2' fontSize={['sm', '3xl']} mb={[1, 10]} backgroundColor='#00509D' color='white' p={[5, 10]} borderRadius={["30px", '50px']} textAlign='center'>{title}</Heading>
       {summary.map((paragraph) => (
         <Text color='gray.600'>{paragraph}</Text>
       ))}    
