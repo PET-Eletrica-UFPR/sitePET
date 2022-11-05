@@ -41,30 +41,6 @@ export function News() {
             linkDescription="Link para a palestra"
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <Headline 
-            image="home/News/bordeaux.png"
-            description="Palestra com Professor François Rivet, da Bordeaux INP."
-            link="https://www.youtube.com/watch?v=_HR2T1NPuvA"
-            linkDescription="Link para a palestra"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Headline 
-            image="home/News/bordeaux.png"
-            description="Palestra com Professor François Rivet, da Bordeaux INP."
-            link="https://www.youtube.com/watch?v=_HR2T1NPuvA"
-            linkDescription="Link para a palestra"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Headline 
-            image="home/News/bordeaux.png"
-            description="Palestra com Professor François Rivet, da Bordeaux INP."
-            link="https://www.youtube.com/watch?v=_HR2T1NPuvA"
-            linkDescription="Link para a palestra"
-          />
-        </SwiperSlide>
       </Swiper>
     </>
   );

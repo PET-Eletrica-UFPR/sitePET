@@ -47,6 +47,7 @@ export function Header() {
         </HStack>
       </Flex>
   )};
+
   return (
     <Flex
     as='header'
@@ -71,18 +72,18 @@ export function Header() {
 
       </Flex>
       <HStack
-        spacing={["1", "5", "20"]}
+        spacing={["15", "19"]}
         ml = 'auto'
         mr='auto'
       >
 
-        <Link as={ReactRouterLink} to='/' fontSize={["xs", "2xl"]}>Início</Link>
-        <Link as={ReactRouterLink} to='/projects' fontSize={["xs", "2xl"]}>Projetos</Link>
-        <Link as={ReactRouterLink} to='/graduation' fontSize={["xs", "2xl"]}>Graduação</Link>
-        <Link as={ReactRouterLink} to='/extension' fontSize={["xs", "2xl"]}>Extensão</Link>
-        <Link as={ReactRouterLink} to='/events' fontSize={["xs", "2xl"]}>Eventos</Link>
-        <Link as={ReactRouterLink} to='/certificates' fontSize={["xs", "2xl"]}>Documentos</Link>
-        <Link as={ReactRouterLink} to='/about-us' fontSize={["xs", "2xl"]}>Sobre Nós</Link>
+        <Link as={ReactRouterLink} to='/' fontSize={["xs", "lg"]}>Início</Link>
+        <Link as={ReactRouterLink} to='/projects' fontSize={["xs", "lg"]}>Projetos</Link>
+        <Link as={ReactRouterLink} to='/graduation' fontSize={["xs", "lg"]}>Graduação</Link>
+        <Link as={ReactRouterLink} to='/extension' fontSize={["xs", "lg"]}>Extensão</Link>
+        <Link as={ReactRouterLink} to='/events' fontSize={["xs", "lg"]}>Eventos</Link>
+        <Link as={ReactRouterLink} to='/certificates' fontSize={["xs", "lg"]}>Documentos</Link>
+        <Link as={ReactRouterLink} to='/about-us' fontSize={["xs", "lg"]}>Sobre Nós</Link>
 
       </HStack>
     </Flex>

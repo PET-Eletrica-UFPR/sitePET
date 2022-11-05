@@ -17,7 +17,7 @@ export function Abstract({title, image, children}: AbstractProps) {
   if(isMobile){
     return(
       <Flex
-        h={["auto", '400px']}
+        h={["auto", "200px", '400px']}
         bgColor='#A8D5FF80'
       >
         <Flex
@@ -25,17 +25,18 @@ export function Abstract({title, image, children}: AbstractProps) {
           px={20}
           py={10}
           >
-          <Heading as='h1' fontSize={["xs", 'lg']} mr='auto' mb={5} >{title}</Heading>
-          <Text fontSize={["xs", 'lg']} color='gray.600'>
+          <Heading as='h1' fontSize={["xs", "sm", 'lg']} mr='auto' mb={5} >{title}</Heading>
+          <Text fontSize={["xs", "sm", 'lg']} color='gray.600'>
             {children}
           </Text>
         </Flex>
       </Flex>
     )
   }
+
   return(
     <Flex
-      h={["auto", '400px']}
+      h={["auto", 'auto']}
       
       bgImage= {image}
       bgPosition="center"
@@ -48,8 +49,8 @@ export function Abstract({title, image, children}: AbstractProps) {
         px={20}
         py={10}
         >
-        <Heading as='h1' fontSize={["xs", 'lg']} mr='auto' mb={5} >{title}</Heading>
-        <Text fontSize={["xs", 'lg']} color='gray.600'>
+        <Heading as='h1' fontSize={["xs", "sm", 'lg']} mr='auto' mb={5} >{title}</Heading>
+        <Text fontSize={["xs", "sm", 'lg']} color='gray.600'>
           {children}
         </Text>
       </Flex>
