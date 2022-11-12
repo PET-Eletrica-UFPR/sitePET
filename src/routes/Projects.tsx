@@ -22,6 +22,12 @@ const projects = [
     summary: ['Na atualidade, os meios de comunicação digital são os mais efetivos para a divulgação de eventos e atividades. Nesse contexto, destacam-se, não somente as redes sociais como também os Landing Pages ou sites de entrada. Uma série de serviços e sistemas passam pelo acesso à internet e protocolos associados, fato que evidencia que o Desenvolvimento Web não deve ser negligenciado para a formação completa de um engenheiro. Com isso, o grupo PET trabalha com o desenvolvimento de páginas WEB em prol do departamento, da coordenação, do grupo e outros projetos, que solicitem tal suporte. Atualmente, há diversas atividades do PET que envolvem aplicações WEB, tais como o desenvolvimento de um site para o PET Elétrica, de uma base de dados para o cadastro e certificação de atividades (CUP), e do mural V3. Em síntese, esse projeto coordena o treinamento de petianos para o Desenvolvimento Web e, então, os redireciona para a execução de atividades conforme a demanda.'],
   },
   {
+    image: '/projects/projImage3D.svg',
+    title: 'Impressora 3D',
+    subtitles: ['Participantes: Audric, Eduardo, Letícia, Renan M. e Renan P.', 'Coordenador: Leonardo'],
+    summary: ['Muitos dos projetos desenvolvidos no curso de Eng. Elétrica não depende somente da parte elétrica, mas também de uma parte mecânica, seja para fixação das placas de circuitos impressos, ou para elementos eletromecânicos, como braços mecânicos, motores, etc, sobretudo na área de robótica. Umas das soluções para projetos de pequena tiragem e prototipação é a utilização de impressão 3D, que permite criar diferentes projetos mecânicos de baixo custo. No ano de 2020, a universidade recebeu diversas impressoras 3D para atuar no combate à pandemia causada pelo coronavírus, atuando na produção de Face Shields e demais peças como dispensers de álcool em gel ou puxadores de porta com os pés, entre outras. O conhecimento em impressão 3D e a cultura maker são dois pontos que tornam o tema interessante, inclusive pensando na empregabilidade dos egressos de nosso curso.'],
+  },
+  {
     image: '/projects/projImageIoPET.svg',
     title: 'IoPET',
     subtitles: ['Participantes: Leonardo, Leticia, Pietro e Renan P.', 'Coordenador: Willy'],
@@ -46,12 +52,6 @@ const projects = [
     summary: ['As oficinas de protótipos do PET Elétrica são um acompanhamento feito no laboratório para a confecção de projetos de eletrônica básica desenvolvidos pelo PET. Estes são divididos em módulos, com oficinas de duração entre uma e duas horas. Busca-se, dessa forma, instigar maior interesse nos calouros, de modo a garantir maior participação na oficina.', 'No início de cada atividade é feita uma revisão teórica juntamente de uma apresentação com os novos conteúdos, necessários para a elaboração de cada prática, a qual é posteriormente elaborada nos laboratórios do curso. Ademais, há a preocupação de que todos os módulos convirjam, para que, quando finalizados, tornem-se um projeto mais complexo e completo.'],
   },
   {
-    image: '/projects/projImage3D.svg',
-    title: 'Impressora 3D',
-    subtitles: ['Participantes: Audric, Eduardo, Letícia, Renan M. e Renan P.', 'Coordenador: Leonardo'],
-    summary: ['Muitos dos projetos desenvolvidos no curso de Eng. Elétrica não depende somente da parte elétrica, mas também de uma parte mecânica, seja para fixação das placas de circuitos impressos, ou para elementos eletromecânicos, como braços mecânicos, motores, etc, sobretudo na área de robótica. Umas das soluções para projetos de pequena tiragem e prototipação é a utilização de impressão 3D, que permite criar diferentes projetos mecânicos de baixo custo. No ano de 2020, a universidade recebeu diversas impressoras 3D para atuar no combate à pandemia causada pelo coronavírus, atuando na produção de Face Shields e demais peças como dispensers de álcool em gel ou puxadores de porta com os pés, entre outras. O conhecimento em impressão 3D e a cultura maker são dois pontos que tornam o tema interessante, inclusive pensando na empregabilidade dos egressos de nosso curso.'],
-  },
-  {
     image: '/projects/projImagePETInt.svg',
     title: 'PET Internacional',
     subtitles: ['Participantes: Lara, Matheus e Nátali', 'Coordenador: Renan P.'],
@@ -60,7 +60,7 @@ const projects = [
   {
     image: '/projects/projImageSeminarios.svg',
     title: 'Seminários PET',
-    subtitles: ['Participantes: Todos os Membros: Audric', 'Coordenador'],
+    subtitles: ['Participantes: Todos os Membros', 'Coordenador: Audric'],
     summary: ['Os Seminários PET consistem em apresentações feitas pelos petianos, em língua estrangeira, que abordam temas diversos relacionados à engenharia. Os seminários são abertos a toda a comunidade, que além de ter uma oportunidade de praticar idiomas, também tem contato com temas por vezes não ensinados na graduação. Com as atividades remotas, os seminários passaram de síncronos e presenciais para assíncronos e por vídeo. O espaço dialógico para praticar idiomas ficou para um outro momento, em sessão síncrona online.'],
   },
 ];

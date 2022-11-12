@@ -31,6 +31,20 @@ export function Testmonials() {
           testimonial= 
           "Ao entrar no PET me vi com várias atividades e responsabilidades em mãos, conheci pessoas, fiz viagens com o grupo, fizemos trocas de conhecimento e de cultura, e pudemos transmitir o nosso conhecimento para a sociedade. E através do PET, sendo coordenadora da Semana Acadêmica de Engenharia Elétrica, consegui meu primeiro estágio, e hoje estagiando na Siemens Energy carrego comigo todo aprendizado que tive no PET."
         />
+         <Student 
+          image="home/joao.png" 
+          name="João Pedro Turra" 
+          jobName="Intercambista em Grenoble-FR" 
+          testimonial= 
+          "Dentro do PET tive a oportunidade de trabalhar e coordenar diversos projetos e atividades e neles pude aprimorar diversas competências. Devido às apresentações em eventos e cursos ministrados aos alunos da graduação pude desenvolver uma facilidade na comunicação, já os conhecimentos obtidos em projetos técnicos me permitiram facilmente progredir na carreira profissional, sendo rapidamente efetivada, mesmo ainda estando na graduação."
+        />
+        <Student 
+          image="home/felipe.png" 
+          name="Felipe Fabricio" 
+          jobName="Roboticista" 
+          testimonial= 
+          "O PET foi muito importante pra minha formação acadêmica e profissional - não apenas no aprendizado da Elétrica, mas em descobrir como lidar com pessoas de diferentes cursos, universidades, cidades e regiões do Brasil, melhorando a minha formação politica e de apresentações públicas. Sem dúvidas anos incríveis que jamais esquecerei - o PET fica no meu coração pra sempre! "
+        />
       </Flex>
     </>
 
