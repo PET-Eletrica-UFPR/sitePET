@@ -56,7 +56,7 @@ export function Header() {
     align='center'
     px={["5", "20"]}
     bg='#0045AD'
-    color='#A8A8B3'
+    color='white'
     w = '100%'
     >
       <Flex
