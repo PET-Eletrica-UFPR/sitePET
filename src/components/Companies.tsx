@@ -29,6 +29,10 @@ export function Companies() {
         <SwiperSlide><Image src='home/companies/bosch.png' alt="bosch" /></SwiperSlide>
         <SwiperSlide><Image src='home/companies/renault.png' alt="renault" /></SwiperSlide>
         <SwiperSlide><Image src='home/companies/volvo.png' alt="volvo" /></SwiperSlide>
+        <SwiperSlide><Image src='home/companies/download.png' alt="siemens" /></SwiperSlide>
+        <SwiperSlide><Image src='home/companies/chavii.png' alt="chavi" /></SwiperSlide>
+        <SwiperSlide><Image src='home/companies/j.assy.png' alt="j.assy" /></SwiperSlide>
+
       </Swiper>
     </>
   );
