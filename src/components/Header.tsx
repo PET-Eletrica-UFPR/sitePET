@@ -1,5 +1,6 @@
 import { Flex, Link, Image, HStack, useBreakpointValue } from '@chakra-ui/react';
 import { Link as ReactRouterLink } from 'react-router-dom';
+import { NavLink, NavLinkProps } from 'react-router-dom';
 
 
 export function Header() {
@@ -77,14 +78,13 @@ export function Header() {
         mr='auto'
       >
 
-        <Link as={ReactRouterLink} to='/' fontSize={["xs", "lg"]}>Início</Link>
-        <Link as={ReactRouterLink} to='/projects' fontSize={["xs", "lg"]}>Projetos</Link>
-        <Link as={ReactRouterLink} to='/graduation' fontSize={["xs", "lg"]}>Graduação</Link>
-        <Link as={ReactRouterLink} to='/extension' fontSize={["xs", "lg"]}>Extensão</Link>
-        <Link as={ReactRouterLink} to='/events' fontSize={["xs", "lg"]}>Eventos</Link>
-        <Link as={ReactRouterLink} to='/certificates' fontSize={["xs", "lg"]}>Documentos</Link>
-        <Link as={ReactRouterLink} to='/about-us' fontSize={["xs", "lg"]}>Sobre Nós</Link>
-
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#E1E1E6' : '#A8A8B3', fontWeight: isActive ? 'Bold' : 'Normal', })} to="/">Inicio </NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#E1E1E6' : '#A8A8B3', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/projects'>Projetos</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#E1E1E6' : '#A8A8B3', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/graduation' >Graduação</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#E1E1E6' : '#A8A8B3', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/extension' >Extensão</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#E1E1E6' : '#A8A8B3', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/events' >Eventos</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#E1E1E6' : '#A8A8B3', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/certificates' >Documentos</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#E1E1E6' : '#A8A8B3', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/about-us' >Sobre Nós</NavLink>
       </HStack>
     </Flex>
   );
