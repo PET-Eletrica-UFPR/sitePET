@@ -1,6 +1,14 @@
 import { Box, Center, Flex, Heading, Select, Stack, Text } from '@chakra-ui/react';
 import { Abstract } from '../components/Abstract';
 
+function handleDownload( event) {
+  const filePath = event.target.value;
+  const link = document.createElement('a');
+  link.href = filePath;
+  link.download = "Edital";
+  link.click();
+}
+
 // TODO: Adicionar links e responsividade
 export function Certificates() {
   return (
@@ -37,12 +45,12 @@ export function Certificates() {
               bgGradient="linear(to-l, #00509D, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
-              color='white'
+              color='black'
               textAlign='center'
+              onChange={handleDownload}
               
             >
-              <option value='option1' disabled >Planejamento</option>
-              <option value='option1' disabled >Edital PS</option>
+              <option value="ps/Ps17.pdf" >Edital PS</option>
 
             </Select>
 
@@ -56,12 +64,12 @@ export function Certificates() {
               bgGradient="linear(to-l, #00509D, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
-              color='white'
+              color='black'
               textAlign='center'
+              onChange={handleDownload}
               
             >
-              <option value='option1' disabled >Planejamento</option>
-              <option value='option1' disabled >Edital PS</option>
+              <option value="ps/Ps19.pdf" >Edital PS</option>
 
             </Select>
 
@@ -75,12 +83,12 @@ export function Certificates() {
               bgGradient="linear(to-l, #00509D, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
-              color='white'
+              color='black'
               textAlign='center'
+              onChange={handleDownload}
               
             >
-              <option value='option1' disabled >Planejamento</option>
-              <option value='option1' disabled >Edital PS</option>
+              <option value="ps/Ps21.pdf" >Edital PS</option>
 
             </Select>
           </Stack>
@@ -94,7 +102,7 @@ export function Certificates() {
 
         </Box>
 
-        <Stack spacing='30rem' direction='row' ml='18rem' mb='5rem'>
+        <Stack spacing='30rem' direction='row' ml='15rem' mb='5rem'>
             <Select 
               variant='flushed'
               placeholder='2018' 
@@ -105,12 +113,11 @@ export function Certificates() {
               bgGradient="linear(to-r, #00509D, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
-              color='white'
+              color='black'
               textAlign='center'
-              
+              onChange={handleDownload}
             >
-              <option value='option1' disabled >Planejamento</option>
-              <option value='option1' disabled >Edital PS</option>
+              <option value="ps/Ps18.pdf" >Edital PS</option>
 
             </Select>
 
@@ -124,12 +131,12 @@ export function Certificates() {
               bgGradient="linear(to-r, #00509D, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
-              color='white'
+              color='black'
               textAlign='center'
+              onChange={handleDownload}
               
             >
-              <option value='option1' disabled >Planejamento</option>
-              <option value='option1' disabled >Edital PS</option>
+              <option value="ps/Ps20.pdf" >Edital PS</option>
 
             </Select>
 
@@ -143,12 +150,14 @@ export function Certificates() {
               bgGradient="linear(to-r, #00509D, #FFFFFF)"
               ml='10rem'
               borderLeftRadius='1rem'
-              color='white'
+              color='black'
               textAlign='center'
+              onChange={handleDownload}
+              
               
             >
-              <option value='option1' disabled >Planejamento</option>
-              <option value='option1' disabled >Edital PS</option>
+              <option value="ps/Ps22.pdf"  >Edital PS</option>
+            
 
             </Select>
           </Stack>
