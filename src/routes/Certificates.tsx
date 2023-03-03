@@ -1,8 +1,11 @@
 import { Box, Center, Flex, Heading, Select, Stack, Text } from '@chakra-ui/react';
 import { Abstract } from '../components/Abstract';
-
-function handleDownload( event) {
-  const filePath = event.target.value;
+import * as React from "react";
+// interface EventProps {
+//   event: Event
+// }
+function handleDownload(event:  React.ChangeEvent<HTMLSelectElement>) {
+  const filePath = event.currentTarget.value;
   const link = document.createElement('a');
   link.href = filePath;
   link.download = "Edital";
