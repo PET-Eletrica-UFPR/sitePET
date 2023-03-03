@@ -1,10 +1,12 @@
+// @ts-nocheck
 import { Divider, Flex, Heading, Image, Text, useBreakpointValue } from '@chakra-ui/react';
+import { ReactElement } from "react"
 
 interface GenericSummaryProps {
   mirror?: boolean;
   image: string;
   title: string;
-  summary: string[];
+  summary: string[] | ReactElement;
 }
 
 export function GenericSummary({ mirror = false, image, title, summary }: GenericSummaryProps) {

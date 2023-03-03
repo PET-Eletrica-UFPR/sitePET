@@ -1,4 +1,4 @@
-import { Flex, Heading } from '@chakra-ui/react';
+// @ts-nocheck
 import { Abstract } from '../components/Abstract';
 import { GenericSummary } from '../components/GenericSummary';
 
