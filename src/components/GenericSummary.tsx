@@ -5,7 +5,7 @@ import { ReactElement } from "react"
 interface GenericSummaryProps {
   mirror?: boolean;
   image: string;
-  title: string;
+  title: any;
   summary: string[] | ReactElement;
 }
 
@@ -26,7 +26,7 @@ export function GenericSummary({ mirror = false, image, title, summary }: Generi
 
   const right = (
     <div>
-      <Heading as='h2' fontSize={['sm', '2xl']} mb={[1, 10]} backgroundColor='#00509D' color='white' p={[5, 10]} borderRadius={["30px", '50px']} textAlign='center'>{title}</Heading>
+      <Heading as='h2' fontSize={['sm', '2xl']} mb={[1, 10]} backgroundColor='#000000' color='white' p={[5, 10]} borderRadius={["30px", '50px']} textAlign='center'>{title}</Heading>
       {summary.map((paragraph) => (
         <Text color='gray.600'>{paragraph}</Text>
       ))}    

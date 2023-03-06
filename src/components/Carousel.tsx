@@ -21,10 +21,10 @@ export function Carousel() {
         }}
         modules={[Navigation, Pagination, Keyboard]}
       >
-        <SwiperSlide> <Image src='home/members2.png' alt='membros' />  </SwiperSlide>
-        <SwiperSlide> <Image src='home/Feira2.png' alt='membros' />  </SwiperSlide>
-        <SwiperSlide> <Image src='home/SATEL7.png' alt='membros' />  </SwiperSlide>
-        <SwiperSlide> <Image src='home/SIEPE2.png' alt='membros' />  </SwiperSlide>
+        <SwiperSlide> <Image src='carousel/carou1.png' alt='membros' />  </SwiperSlide>
+        <SwiperSlide> <Image src='carousel/carou2.png' alt='membros' />  </SwiperSlide>
+        <SwiperSlide> <Image src='carousel/carou3.png' alt='membros' />  </SwiperSlide>
+        <SwiperSlide> <Image src='carousel/carou4.png' alt='membros' />  </SwiperSlide>
       </Swiper>
     </Flex>
     
