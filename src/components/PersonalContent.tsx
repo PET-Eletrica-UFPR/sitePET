@@ -3,7 +3,7 @@ import { Center, Flex, Image, Text, useBreakpointValue } from "@chakra-ui/react"
 export function PersonalContent() {
   return(
     <Flex w = "100%">
-    <Image src='home/PetFade.png' w = "50%"></Image>
+    <Image src='home/fade.svg' w = "50%"></Image>
         <Center 
           bgImg='home/PetHistory.png' 
           w = "51%"

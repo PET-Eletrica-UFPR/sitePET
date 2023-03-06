@@ -1,6 +1,9 @@
 import { Box, Center, Flex, Heading, Select, Stack, Text } from '@chakra-ui/react';
 import { Abstract } from '../components/Abstract';
 import * as React from "react";
+import { setValues } from 'framer-motion/types/render/utils/setters';
+
+
 // interface EventProps {
 //   event: Event
 // }
@@ -8,7 +11,7 @@ function handleDownload(event:  React.ChangeEvent<HTMLSelectElement>) {
   const filePath = event.currentTarget.value;
   const link = document.createElement('a');
   link.href = filePath;
-  link.download = "Edital";
+  link.download = "Documento";
   link.click();
 }
 
@@ -39,32 +42,35 @@ export function Certificates() {
       <Flex direction='column'>
           <Stack spacing='30rem' direction='row'>
             <Select 
-              variant='flushed'
-              placeholder='2017' 
+              variant='flushed' 
               fontWeight='bold' 
               fontSize='1.5rem'
               h='4rem' 
               w='10rem' 
-              bgGradient="linear(to-l, #00509D, #FFFFFF)"
+              bgGradient="linear(to-l, #ffd230, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
               color='black'
               textAlign='center'
               onChange={handleDownload}
+        
               
             >
-              <option value="ps/Ps17.pdf" >Edital PS</option>
+              <option selected hidden > 2017 </option>
+              <option value="documentos/Ps17.pdf">PS 2017</option>
+              <option value="documentos/pla17.pdf"> Planejamento 2017</option>
+              <option value="documentos/rel17.pdf">Relatório 2017</option>
+              
 
             </Select>
 
             <Select 
               variant='flushed'
-              placeholder='2019' 
               fontWeight='bold' 
               fontSize='1.5rem'
               h='4rem' 
               w='10rem' 
-              bgGradient="linear(to-l, #00509D, #FFFFFF)"
+              bgGradient="linear(to-l, #ffd230, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
               color='black'
@@ -72,18 +78,21 @@ export function Certificates() {
               onChange={handleDownload}
               
             >
-              <option value="ps/Ps19.pdf" >Edital PS</option>
+              <option selected hidden > 2019 </option>
+              <option value="documentos/Ps19.pdf">PS 2019</option>
+              <option value="documentos/pla19.pdf"> Planejamento 2019</option>
+              <option value="documentos/rel19.pdf">Relatório 2019</option>
 
             </Select>
 
             <Select 
               variant='flushed'
-              placeholder='2021' 
+             
               fontWeight='bold' 
               fontSize='1.5rem'
               h='4rem' 
               w='10rem' 
-              bgGradient="linear(to-l, #00509D, #FFFFFF)"
+              bgGradient="linear(to-l, #ffd230, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
               color='black'
@@ -91,14 +100,17 @@ export function Certificates() {
               onChange={handleDownload}
               
             >
-              <option value="ps/Ps21.pdf" >Edital PS</option>
+              <option selected hidden > 2021 </option>
+              <option value="documentos/Ps21.pdf">PS 2021</option>
+              <option value="documentos/pla21.pdf"> Planejamento 2021</option>
+              <option value="documentos/rel21.pdf">Relatório 2021</option>
 
             </Select>
           </Stack>
 
         <Box
           w='100%' 
-          bg='#00509D' 
+          bg='#000000' 
           py = '1rem'
           my='2rem'
         >
@@ -107,31 +119,32 @@ export function Certificates() {
 
         <Stack spacing='30rem' direction='row' ml='15rem' mb='5rem'>
             <Select 
-              variant='flushed'
-              placeholder='2018' 
+              variant='flushed' 
               fontWeight='bold' 
               fontSize='1.5rem'
               h='4rem' 
               w='10rem' 
-              bgGradient="linear(to-r, #00509D, #FFFFFF)"
+              bgGradient="linear(to-r, #ffd230, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
               color='black'
               textAlign='center'
               onChange={handleDownload}
             >
-              <option value="ps/Ps18.pdf" >Edital PS</option>
+              <option selected hidden > 2018 </option>
+              <option value="documentos/Ps18.pdf">PS 2018</option>
+              <option value="documentos/pla18.pdf"> Planejamento 2018</option>
+              <option value="documentos/rel18.pdf">Relatório 2018</option>
 
             </Select>
 
             <Select 
               variant='flushed'
-              placeholder='2020' 
               fontWeight='bold' 
               fontSize='1.5rem'
               h='4rem' 
               w='10rem' 
-              bgGradient="linear(to-r, #00509D, #FFFFFF)"
+              bgGradient="linear(to-r, #ffd230, #FFFFFF)"
               ml='5rem'
               borderLeftRadius='1rem'
               color='black'
@@ -139,18 +152,20 @@ export function Certificates() {
               onChange={handleDownload}
               
             >
-              <option value="ps/Ps20.pdf" >Edital PS</option>
+              <option selected hidden > 2020 </option>
+              <option value="documentos/Ps20.pdf">PS 2020</option>
+              <option value="documentos/pla20.pdf"> Planejamento 2020</option>
+              <option value="documentos/rel20.pdf">Relatório 2020</option>
 
             </Select>
 
             <Select 
-              variant='flushed'
-              placeholder='2022' 
+              variant='flushed' 
               fontWeight='bold' 
               fontSize='1.5rem'
               h='4rem' 
               w='10rem' 
-              bgGradient="linear(to-r, #00509D, #FFFFFF)"
+              bgGradient="linear(to-r, #ffd230, #FFFFFF)"
               ml='10rem'
               borderLeftRadius='1rem'
               color='black'
@@ -159,7 +174,10 @@ export function Certificates() {
               
               
             >
-              <option value="ps/Ps22.pdf"  >Edital PS</option>
+              <option selected hidden > 2022 </option>
+              <option value="documentos/Ps22.pdf">PS 2022</option>
+              <option value="documentos/pla22.pdf"> Planejamento 2022</option>
+              <option value="documentos/rel22.pdf">Relatório 2022</option>
             
 
             </Select>

@@ -11,8 +11,8 @@ export function HeadingBar({ title }: HeadingProps) {
         fontSize={["sm",'3xl']} 
         w = '100%'
         my="0.5rem" 
-        backgroundColor='#00509D' 
-        color='white' p={10} 
+        backgroundColor='#000000' 
+        color='#ffd230' p={10} 
         textAlign='center'
       >
         {title}

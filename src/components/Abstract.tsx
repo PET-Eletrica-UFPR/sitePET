@@ -18,7 +18,7 @@ export function Abstract({title, image, children}: AbstractProps) {
     return(
       <Flex
         h={["auto", "200px", '400px']}
-        bgColor='#A8D5FF80'
+        bgColor='#ffff85'
       >
         <Flex
           direction='column'
@@ -41,8 +41,8 @@ export function Abstract({title, image, children}: AbstractProps) {
       bgImage= {image}
       bgPosition="center"
       bgRepeat='no-repeat'
-      bgSize='100%'
-      bgColor='#A8D5FF80'
+      bgSize='90%'
+      bgColor='#ffff85'
     >
       <Flex
         direction='column'

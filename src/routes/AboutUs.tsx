@@ -16,7 +16,7 @@ export function AboutUs() {
 
       <Flex align='center' direction='row'  px={['0.5rem', '5rem']}justifyContent='center'>
         <Box 
-          bg="#00509D" 
+          bg="#000000" 
           borderRightRadius = {['1rem','5rem']} 
           borderBottomRadius = {['1rem','5rem']}
           pl={["1rem", "5rem"]}
@@ -35,7 +35,7 @@ export function AboutUs() {
         <Box 
           ml='1rem'
           w={['100px','50%']} 
-          bgGradient="linear(to-r, #00509D, #FFFFFF)" 
+          bgGradient="linear(to-r, #000000, #ffd230)" 
           p = {['0.5rem', '1rem']}
           borderLeftRadius={'1rem'}
         >
@@ -44,7 +44,7 @@ export function AboutUs() {
         </Box>
       </Flex>
       
-        <Image src='/aboutUs/bodyAbout.svg' w = '100%'></Image>
+        <Image src='/aboutUs/petianos.svg' w = '100%'></Image>
     </>
   );
 }
