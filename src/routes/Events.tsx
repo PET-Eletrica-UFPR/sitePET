@@ -10,8 +10,8 @@ const activities = [
     summary: ['A feira de profissões tem a função de mostrar informações sobre todos os cursos de graduação e de ensino profissionalizante disponíveis na instituição, propiciando uma maior interação entre a Universidade e a sociedade. Além disso, são oferecidas palestras sobre orientação profissional e sobre como manter a auto-estima e a tranquilidade no vestibular.', 'Saiba mais na página do Facebook e na página do Instagram.'],
   },
   {
-    image: '/events/logoSIEPE.png',
-    title: <a href="http://www.siepe.ufpr.br/2022/">Siepe</a>,
+    image: '/events/siepe.svg',
+    title: <a href="http://www.siepe.ufpr.br/2022/">SIEPE</a>,
     summary: ['A SIEPE (Semana Integrada de Ensino Pesquisa e Extensão)  é um evento anual que promove e estimula a interação entre docentes, estudantes de graduação, educação profissional, ensino médio, pós-graduação, servidores técnicos, servidoras técnicas e comunidade em geral. Constitui-se em um espaço privilegiado no qual são compartilhados conhecimentos e experiências, mediante a reflexão sobre temas de diversas áreas por intermédio dos trabalhos desenvolvidos em Ensino, Pesquisa e Extensão.'],
   },
   {
