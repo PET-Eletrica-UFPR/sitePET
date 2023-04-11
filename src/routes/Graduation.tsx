@@ -1,6 +1,16 @@
 import { Abstract } from '../components/Abstract';
 import { GenericSummary } from '../components/GenericSummary';
+import { CalouroSummary } from '../components/CalouroSummary';
 
+
+const calouros = [
+  {
+    image: '/Student.svg',
+    title: <a href="documentos/Manual.pdf">MANUAL DOS CALOUROS</a>,
+    summary: ['Com o objetivo de auxiliar os estudantes ingressados recentemente à Universidade Federal do Paraná, o PET Elétrica elaborou um manual de calouros, onde os estudantes poderão se guiar, realizar suas primeiras ações na Universidade e responder possíveis dúvidas que o ingressante possa ter sobre o curso, localizações, serviços ou atividades complementares.','⠀','O PET Elétrica também tem sua participação na semana dos calouros, apresentando suas atividades, seus diversos projetos e também como participar do PET Elétrica.'],
+    baseBoard: <a href="documentos/Semana_dos_calouros.pdf">SEMANA DOS CALOUROS</a>,
+  },
+];
 
 const activities = [
   {
@@ -30,6 +40,9 @@ export function Graduation() {
         alunos a esclarecerem e revisarem as ideias dadas em sala de aula
       </Abstract>
 
+      {calouros.map(({ image, title, summary, baseBoard }, index) => (
+        <CalouroSummary mirror={index % 2 === 1} image={image} title={title} summary={summary} baseBoard={baseBoard} />
+      ))}
       {activities.map(({ image, title, summary }, index) => (
         <GenericSummary mirror={index % 2 === 1} image={image} title={title} summary={summary} />
       ))}
