@@ -7,12 +7,12 @@ interface HeadingProps {
 export function HeadingBar({ title }: HeadingProps) {
   return(
     <Heading
-        as='h2' 
-        fontSize={["sm",'3xl']} 
+        as='h2'
+        fontSize={["sm",'3xl']}
         w = '100%'
-        my="0.5rem" 
-        backgroundColor='#000000' 
-        color='#ffd230' p={10} 
+        my="0.5rem"
+        backgroundColor='#EBD64C'
+        color='000000' p={3}
         textAlign='center'
       >
         {title}
