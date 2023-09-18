@@ -109,7 +109,7 @@ export function AboutUs() {
             boxSize={['5rem','13rem']}
             borderTopRadius={['1rem', '2rem']}
             borderBottomRadius={['1rem', '3rem']}
-            mmargin='1.5rem'
+            margin='1.5rem'
             ml='1.5rem'
           >
           </Image>
