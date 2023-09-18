@@ -31,7 +31,7 @@ export function Header() {
             boxSize='80px'
           />
           </Link>
-          
+
 
         </Flex>
         <HStack
@@ -69,7 +69,7 @@ export function Header() {
           boxSize='120px'
         />
         </Link>
-        
+
 
       </Flex>
       <HStack
@@ -78,13 +78,13 @@ export function Header() {
         mr='auto'
       >
 
-        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', })} to="/">Inicio </NavLink>
-        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/projects'>Projetos</NavLink>
-        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/graduation' >Graduação</NavLink>
-        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/extension' >Extensão</NavLink>
-        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/events' >Eventos</NavLink>
-        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/certificates' >Documentos</NavLink>
-        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', })} to='/about-us' >Sobre Nós</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', fontSize: isActive ? '20px' : '20px'  })} to="/">Inicio </NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', fontSize: isActive ? '20px' : '20px'  })} to='/projects'>Projetos</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', fontSize: isActive ? '20px' : '20px' })} to='/FabLab'>FabLab</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', fontSize: isActive ? '20px' : '20px' })} to='/graduation' >Graduação</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', fontSize: isActive ? '20px' : '20px' })} to='/extension' >Extensão</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', fontSize: isActive ? '20px' : '20px' })} to='/certificates' >Documentos</NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? '#ffd230' : '#ffd230', fontWeight: isActive ? 'Bold' : 'Normal', fontSize: isActive ? '20px' : '20px' })} to='/about-us' >Sobre Nós</NavLink>
       </HStack>
     </Flex>
   );

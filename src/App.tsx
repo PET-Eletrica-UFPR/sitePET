@@ -10,6 +10,7 @@ import { Certificates } from './routes/Certificates';
 import { AboutUs } from './routes/AboutUs';
 import { NotFound } from './routes/NotFound';
 import { theme } from '@chakra-ui/react';
+import { FabLab } from './routes/FabLab';
 
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
@@ -29,6 +30,7 @@ export function App() {
           }>
             <Route index element={<Home />} />
             <Route path='projects' element={<Projects />} />
+            <Route path='FabLab' element={<FabLab/>} />
             <Route path='graduation' element={<Graduation />} />
             <Route path='extension' element={<Extension />} />
             <Route path='events' element={<Events />} />

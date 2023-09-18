@@ -21,12 +21,12 @@ export function Carousel() {
         }}
         modules={[Navigation, Pagination, Keyboard]}
       >
-        <SwiperSlide> <Image src='carousel/carou1.png' alt='membros' />  </SwiperSlide>
-        <SwiperSlide> <Image src='carousel/carou2.png' alt='membros' />  </SwiperSlide>
-        <SwiperSlide> <Image src='carousel/carou3.png' alt='membros' />  </SwiperSlide>
-        <SwiperSlide> <Image src='carousel/carou4.png' alt='membros' />  </SwiperSlide>
+        <SwiperSlide>  <Image src='carousel/carou.png'  alt='membros' /> </SwiperSlide>
+        <SwiperSlide> <a href="https://siepe2023.ufpr.br/" target='_blank'> <Image src='carousel/carou1.png' alt='membros' /> </a> </SwiperSlide>
+        <SwiperSlide> <a href="https://www.instagram.com/stories/highlights/18026408245480650/" target='_blank'> <Image src='carousel/carou2.png' alt='membros' /> </a>  </SwiperSlide>
+        <SwiperSlide> <a href="https://www.instagram.com/stories/highlights/18004655836970567/" target='_blank'> <Image src='carousel/carou3.png' alt='membros' /> </a>  </SwiperSlide>
       </Swiper>
     </Flex>
-    
+
   );
 }

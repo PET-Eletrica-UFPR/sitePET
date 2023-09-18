@@ -13,9 +13,9 @@ import { Flex, Image } from "@chakra-ui/react";
 export function Companies() {
   return(
     <>
-    <HeadingBar title="EMPRESAS EM QUE EX-PETIANOS ATUAM"/>
+    <HeadingBar title="Empresas de atuação dos ex-petianos"/>
       <Swiper
-        
+
         slidesPerView={4}
         spaceBetween= {15}
         navigation={true}
@@ -37,3 +37,4 @@ export function Companies() {
     </>
   );
 }
+
